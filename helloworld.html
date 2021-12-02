@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="style.css">
+    <link rel = "stylesheet" href="html5reset.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-213862846-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-213862846-1');
+</script>
+    <title>Claire Zuo Portfolio</title>
+</head>
+<body>
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>
+<header>
+  <div class="skip"><a href="#main-text-id">Skip to Main Content</a></div>
+  <h1 class = "logo"> CZ 🚀</h1>
+</header>
+  <div class = "navbar">
+    <div class ="container-flex">
+      <nav>
+        <ul>
+          <li><a id = "active" href="helloworld.html">Home</Main></a></li> 
+          <li><a href="artwork.html">ui/ux</a></li>
+          <li><a href="random.html">Design</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <main>
+    <div class = "main-text" id = "main-text-id">
+      <h1> Hello! 👋🏼 <br>
+        I'm Claire
+      </h1>
+      <p>I'm passionate about creating <br> 
+        solutions through all things design.<br>
+      Feel free to explore 🌟</p>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    </div>
+  </main>
+  <div class = "wontainer">
+    <section class ="one">
+      <div class ="scrolltext">
+        <img src="INTEGRATE.png" alt="integrate"/>
+        <p><span class="title-text">Design and Technology</span><br>
+          I like to integrate technology and design </p>
+      </div>
+    </section>
+    <section class ="two">
+      <div class ="scrolltext">
+      <p><span class="title-text">Design and Technology</span><br>
+        I'm passionate about finding new mediums to explore creativity and self teaching myself new mediums</p>
+      <img src="plain jane.jpg" alt="plainjane"/>
+  </div>
+  <footer>
+      <p>Claire Zuo</p>
+      <p> copyright &copy; 2021</p>
+  </footer>
+  <script>
+    // When the user scrolls the page, execute myFunction 
+    window.onscroll = function() {myFunction()};
+    
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+    </script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="style.css">
+    <link rel = "stylesheet" href="html5reset.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-213862846-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-213862846-1');
+</script>
+    <title>Random</title>
+  </head>
+<body>
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>
+  <header>
+    <div class="skip"><a href="#main-text-id">Skip to Main Content</a></div>
+    <h1 class = "logo"> Design 🚀</h1>
+  </header>
+    <div class = "navbar">
+      <div class ="container-flex">
+        <nav>
+          <ul>
+            <li><a href="helloworld.html">Home</Main></a></li>
+            <li><a href="artwork.html">UI/UX</a></li>
+            <li><a id = "active" href="random.html">Design</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <main>
+      <div class = "main-text" id = "main-text-id">
+        <h1> Poster  <br>
+          Designs 🎨
+        </h1>
+        <p> I got really bored in <br>
+          winter of 2020, so I decided<br>
+          to design posters of songs that<br>
+          I really enjoyed at the time.🌟<br>
+          <br>
+          <br>
+          <br></p>
+        <h2>👇🏼</h2>
+      </div>
+      
+    <!-- <div class="container" style="display: flex;max-width: 1200px;width: 100%;flex-wrap: wrap;"> -->
+      <div class="image-gallery">
+        <img src="plain jane.jpg" alt=""/>
+        <p> <span class="special-text">PLAIN JANE - ASAP FERG FT. NICKI MINAJ</span></br>
+       Still Striving<br>
+       2017<br>
+       I photoshopped two separate images of
+       Nicki Minaj and ASAP Ferg together on a
+      Yellow background, and added rip and crinkle
+        textures. I also altered the typography.</p>
+        <img src="astro.png" alt=""/>
+        
+        <p><span class="special-text">ASTROWORLD ALBUM - TRAVIS SCOTT</span></br>
+           2018 <br>
+           I used parts of the illustrations for
+          the tour and removed the astroworld
+          background from a t-shirt logo for 
+          a more retro look.</p>
+        <img src="90210.jpg" alt=""/>
+        <p><span class="special-text">90210 - TRAVIS SCOTT</span></br>
+         Rodeo (Expanded)<br>
+         2015 <br>
+         One of my favorite Travis Scott songs.
+        Initially it was all black, but I
+        went back and inverted part of the image.
+        I added snippets of lyrics around the page. </p>
+        <img src="bored.jpg" alt=""/>
+        <p><span class="special-text">BORED - BILLIE EILISH</span></br>
+         13 Reasons Why<br>
+         2017 <br>
+        I loved that photo of Billie so I created the
+        poster based off the image, focusing on green.
+        Her goggles looked futuristic so I added a bubble
+        wrap texture instead of the wrinkle texture I usually use.</p>
+        <img src="highest.jpg" alt=""/>
+        <p><span class="special-text">HIGHEST IN THE ROOM - TRAVIS SCOTT</span></br>
+          JACKBOYS<br>
+          2019<br>
+          I really liked this song at the time.
+          Especially the outro instrumental felt
+          like I was floating, so I focused on skies,
+          clouds, and emphasized the color blue.</p>
+      </div>
+    </div>
+  </main>
+    <footer>
+        <p>Claire Zuo</p>
+        <p> copyright &copy; 2021</p>
+   </footer>
+   <script>
+    // When the user scrolls the page, execute myFunction 
+    window.onscroll = function() {myFunction()};
+    
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+    </script>
+</body>
+</html>
