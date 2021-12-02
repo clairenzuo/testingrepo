@@ -6,23 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href="style.css">
     <link rel = "stylesheet" href="html5reset.css">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-213862846-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-213862846-1');
-</script>
     <title>Random</title>
-    
 </head>
 <body>
-  <div class="progress-container">
-    <div class="progress-bar" id="myBar"></div>
-  </div>
   <header>
-    <div class="skip"><a href="#main-text-id">Skip to Main Content</a></div>
+    <div class="skip"><a href="#main-text">Skip to Main Content</a></div>
     <h1 class = "logo"> About 🚀</h1>
   </header>
     <div class = "navbar">
@@ -39,7 +27,7 @@
       </div>
     </div>
     <main>
-      <div class = "main-text" id = "main-text-id">
+      <div class = "main-text">
         <h1>Hi! 🙋🏻‍♀️<br>I'm Claire. 
         </h1>
         <p> I’m currently an undergrad <br>
@@ -54,31 +42,9 @@
         <h2>👇🏼</h2>
       </div>
     <!-- <div class="container" style="display: flex;max-width: 1200px;width: 100%;flex-wrap: wrap;"> -->
-      <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <img src="profile.jpg" alt="profilepic">
-          </div>
-          <div class="flip-card-back">
-            <h1>Claire Zuo</h1> 
-            <p>Information Science Major: UX Design</p> 
-          </div>
-        </div>
-      </div>
-
-      <div class="about-me"> 
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src="profile.jpg" alt="profilepic">
-            </div>
-            <div class="flip-card-back">
-              <h1>Claire Zuo</h1> 
-              <p>Information Science Major: UX Design</p> 
-            </div>
-          </div>
-        </div>
-         <!-- <img src="profile.jpg" alt="profilepicture"> -->
+      <div class="about-me" {
+        ">
+        <img src="profile.jpg" alt=""/>
          <p>I’m currently an undergrad student at the University of Michigan. I live in New York and was born and raised in Toronto, Canada. 
            <br>
            <br>
@@ -92,20 +58,7 @@
         <p>Claire Zuo</p>
         <p> copyright &copy; 2021</p>
     </footer>   
-
-    <script>
-      // When the user scrolls the page, execute myFunction 
-      window.onscroll = function() {myFunction()};
-      
-      function myFunction() {
-        var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-        var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-        var scrolled = (winScroll / height) * 100;
-        document.getElementById("myBar").style.width = scrolled + "%";
-      }
-      </script>
 </body>
 </html>
-
 
 
